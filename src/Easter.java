@@ -12,7 +12,11 @@ public class Easter {
         int newYear = 0;
         boolean isValidYear = isValidYear(newYear);
 
-        return null;
+        if (year >= 1900 && year <= 2099)
+        {
+            return true;
+        }
+
     }
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
