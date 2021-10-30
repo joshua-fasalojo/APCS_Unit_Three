@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class Easter {
 
 
-    public static String dateOfEaster() {
+    public static String dateOfEaster(String name) {
+        return null;
 
-   // }
+    }
 
     public static Boolean isValidYear(int year) {
-        int Year = 1982-2048;
+        int newYear = 0;
+        boolean isValidYear = isValidYear(newYear);
 
-
-    //}
+        return null;
+    }
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("What is the year?");
