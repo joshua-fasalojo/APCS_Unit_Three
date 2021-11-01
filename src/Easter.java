@@ -9,8 +9,6 @@ public class Easter {
     }
 
     public static Boolean isValidYear(int year) {
-        int newYear = 0;
-        boolean isValidYear = isValidYear(newYear);
 
         if (year >= 1900 && year <= 2099)
         {
